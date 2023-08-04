@@ -1,4 +1,5 @@
 # Day 2: 20 Days of python programming
+#https://github.com/Asabeneh/30-Days-Of-Python/blob/master/02_Day_Variables_builtin_functions/02_variables_builtin_functions.md
 
 ##Exercise: Level 1
 First_name = "Joel"
@@ -55,3 +56,4 @@ divide = num_one / num_two
 remainder  = num_one % num_two
 exp  = num_one ** num_two
 print(exp)
+
