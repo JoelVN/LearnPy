@@ -12,9 +12,25 @@ import sys
 ## print(pa.position())
 time.sleep(5)
 
+# while True:
+#     pa.moveTo(x=random.randint(10,1920), y =random.randint(10,1080) )
+#     print(pa.position())
+#     if keyboard.is_pressed('e'):
+#         break
+#         sys.exit()
+pa.moveTo(x=random.randint(10,1920), y =random.randint(10,1080) )
+
 while True:
-    pa.moveTo(x=random.randint(10,1920), y =random.randint(10,1080) )
-    print(pa.position())
+
+    pa.moveTo(300,200)
+    pa.moveRel(6,0)
+    pa.moveRel(-6,0)
+    pa.doubleClick(button="right")
+    pa.moveTo(600,900)
+    pa.moveRel(6,0)
+    pa.moveRel(-6,0)
+    pa.doubleClick(button="right")
+
     if keyboard.is_pressed('e'):
         break
         sys.exit()
