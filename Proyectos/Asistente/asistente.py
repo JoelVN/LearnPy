@@ -23,12 +23,8 @@ pa.moveTo(x=random.randint(10,1920), y =random.randint(10,1080) )
 while True:
 
     pa.moveTo(300,200)
-    pa.moveRel(6,0)
-    pa.moveRel(-6,0)
     pa.doubleClick(button="right")
     pa.moveTo(600,900)
-    pa.moveRel(6,0)
-    pa.moveRel(-6,0)
     pa.doubleClick(button="right")
 
     if keyboard.is_pressed('e'):
